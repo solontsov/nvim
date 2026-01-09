@@ -41,3 +41,7 @@
 | | `"ay` | Yank current selection into Register 'a' |
 | **Paste** | `p` `P` | Paste Below / Above |
 | | `"ap` | Paste from Register 'a' |
+
+---
+## Other cheat sheets
+ [https://github.com/gibbok/vim-cheat-sheet](https://github.com/gibbok/vim-cheat-sheet).
