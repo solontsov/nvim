@@ -41,6 +41,7 @@
 | | `"ay` | Yank current selection into Register 'a' |
 | **Paste** | `p` `P` | Paste Below / Above |
 | | `"ap` | Paste from Register 'a' |
+| | `"+p` | Paste from Clipboard |
 
 ---
 ## Other cheat sheets
