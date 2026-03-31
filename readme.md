@@ -22,9 +22,13 @@
 | :--- | :--- | :--- |
 | **Insert New Lines** | `o` | Insert New Line Below |
 | | `O` | Insert New Line Above |
+| **➡️ Indent** | `>>` |  |
+| **⬅️ Unindent** | `<<` |  |
+| | Ctrl-d | in insert mode |
 | **🎨 Visual Mode** | `v` `V` | Visual Char Mode / Visual Line Mode |
 | | `Ctrl`+`v` | Visual Block Mode |
 | | `y` `d` `c` | Yank / Delete / Change current selection |
+| **⚡ Autocomplete | Ctrl-n / Ctrl-p | next / previous completion |
 
 ## Actions
 
@@ -39,8 +43,12 @@
 | | `yw` | Yank Word |
 | | `yiw` `yaw` | Yank inside/around word (Text Objects) |
 | | `"ay` | Yank current selection into Register 'a' |
-| **Paste** | `p` `P` | Paste Below / Above |
+| **📋 Paste** | `p` `P` | Paste Below / Above |
 | | `"ap` | Paste from Register 'a' |
+| | `"+p` | Paste from clipboard |
+| **↩️ Undo** | `u` |  |
+| | Ctrl-u | 
+
 
 ---
 ## Other cheat sheets
