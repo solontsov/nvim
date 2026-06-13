@@ -50,6 +50,11 @@
 | **↩️ Undo** | `u` |  |
 | | Ctrl-u | 
 
+## Lua
+
+| Sub-Category | Command | Description |
+| :--- | :--- | :--- |
+| **Help** | `:help lua-guide` | Lua guide and reference |
 
 ---
 ## Other cheat sheets
