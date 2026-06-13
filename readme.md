@@ -17,12 +17,13 @@
 | | `n` `N` | Next Result / Previous Result |
 | | `*` `#` | Search Current Word Forward / Backward |
 
-## Edit Mode
+## ✍️ Edit Mode
 
 | Sub-Category | Command | Description |
 | :--- | :--- | :--- |
 | **Insert New Lines** | `o` | Insert New Line Below |
 | | `O` | Insert New Line Above |
+| **Insert At Line Start** | `I` | Insert at first non-blank character of line |
 | **➡️ Indent** | `>>` |  |
 | **⬅️ Unindent** | `<<` |  |
 | | Ctrl-d | in insert mode |
@@ -50,12 +51,29 @@
 | **↩️ Undo** | `u` |  |
 | | Ctrl-u | 
 
-## Lua
+## 🌐 Lua
 
 | Sub-Category | Command | Description |
 | :--- | :--- | :--- |
 | **Help** | `:help lua-guide` | Lua guide and reference |
 
+## 🎥 Macros
+
+| Sub-Category | Command | Description |
+| :--- | :--- | :--- |
+| **🔴 Recording** | `q{register}` | Start recording macro into register (use any letter/number) |
+| **⏹️ Stop** | `q` | Stop recording |
+| **▶️ Play** | `@{register}` | Run recorded macro |
+
+## 📄 Multi buffers
+
+| Sub-Category | Command | Description |
+| :--- | :--- | :--- |
+| **List buffers** | `:buffers` / `:ls` | Show all open buffers |
+| **New buffer** | `:enew` | Create a new empty buffer |
+| **Select buffer** | `:bnext` / `:bprevious` | Move to next/previous buffer |
+| **Close buffer** | `:bdelete` | Close current buffer |
+
 ---
-## Other cheat sheets
+## 📚 Other cheat sheets
  [https://github.com/gibbok/vim-cheat-sheet](https://github.com/gibbok/vim-cheat-sheet).
