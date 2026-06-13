@@ -10,6 +10,7 @@
 | | `gg` `G` | First Line / Last Line |
 | | `zz` | Center the current line on screen |
 | **Screen & Page** | `H` `M` `L` | Screen Top (High) / Middle / Bottom (Low) |
+| | `Ctrl` + `y` / `e` | Scroll One Line Up / Down |
 | | `Ctrl` + `u` / `d` | Half Page Up / Down |
 | | `Ctrl` + `b` / `f` | Full Page Back / Forward |
 | **Search** | `/` `?` | Search Forward / Backward |
