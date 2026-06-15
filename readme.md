@@ -17,7 +17,7 @@
 | | `n` `N` | Next Result / Previous Result |
 | | `*` `#` | Search Current Word Forward / Backward |
 
-## ✍️ Edit Mode
+## ✍️ Edit
 
 | Sub-Category | Command | Description |
 | :--- | :--- | :--- |
@@ -45,6 +45,7 @@
 | | `yw` | Yank Word |
 | | `yiw` `yaw` | Yank inside/around word (Text Objects) |
 | | `"ay` | Yank current selection into Register 'a' |
+| | `:%y+` | Yank current buffer to system clipboard |
 | **📋 Paste** | `p` `P` | Paste Below / Above |
 | | `"ap` | Paste from Register 'a' |
 | | `"+p` | Paste from clipboard |
